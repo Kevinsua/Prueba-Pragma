@@ -1,0 +1,8 @@
+CREATE TABLE dbo.Usuario 
+( 
+    Id INT PRIMARY KEY NOT NULL 
+    ,Nombre VARCHAR(50) NOT NULL 
+    ,Rut VARCHAR(50) UNIQUE NOT NULL 
+    ,Correo VARCHAR(100)
+    ,FechaNacimiento DATETIME NOT NULL
+);
